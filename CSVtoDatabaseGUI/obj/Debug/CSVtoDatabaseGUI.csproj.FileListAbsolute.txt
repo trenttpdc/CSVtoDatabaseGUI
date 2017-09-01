@@ -1,0 +1,16 @@
+C:\Users\Trent\Documents\Visual Studio 2017\Projects\CSVtoDatabaseGUI\CSVtoDatabaseGUI\obj\Debug\MainWindow.g.cs
+C:\Users\Trent\Documents\Visual Studio 2017\Projects\CSVtoDatabaseGUI\CSVtoDatabaseGUI\obj\Debug\App.g.cs
+C:\Users\Trent\Documents\Visual Studio 2017\Projects\CSVtoDatabaseGUI\CSVtoDatabaseGUI\obj\Debug\CSVtoDatabaseGUI_MarkupCompile.cache
+C:\Users\Trent\Documents\Visual Studio 2017\Projects\CSVtoDatabaseGUI\CSVtoDatabaseGUI\obj\Debug\CSVtoDatabaseGUI_MarkupCompile.lref
+C:\Users\Trent\Documents\Visual Studio 2017\Projects\CSVtoDatabaseGUI\CSVtoDatabaseGUI\bin\Debug\CSVtoDatabaseGUI.exe.config
+C:\Users\Trent\Documents\Visual Studio 2017\Projects\CSVtoDatabaseGUI\CSVtoDatabaseGUI\bin\Debug\CSVtoDatabaseGUI.exe
+C:\Users\Trent\Documents\Visual Studio 2017\Projects\CSVtoDatabaseGUI\CSVtoDatabaseGUI\bin\Debug\CSVtoDatabaseGUI.pdb
+C:\Users\Trent\Documents\Visual Studio 2017\Projects\CSVtoDatabaseGUI\CSVtoDatabaseGUI\obj\Debug\MainWindow.baml
+C:\Users\Trent\Documents\Visual Studio 2017\Projects\CSVtoDatabaseGUI\CSVtoDatabaseGUI\obj\Debug\CSVtoDatabaseGUI.g.resources
+C:\Users\Trent\Documents\Visual Studio 2017\Projects\CSVtoDatabaseGUI\CSVtoDatabaseGUI\obj\Debug\CSVtoDatabaseGUI.Properties.Resources.resources
+C:\Users\Trent\Documents\Visual Studio 2017\Projects\CSVtoDatabaseGUI\CSVtoDatabaseGUI\obj\Debug\CSVtoDatabaseGUI.csproj.GenerateResource.Cache
+C:\Users\Trent\Documents\Visual Studio 2017\Projects\CSVtoDatabaseGUI\CSVtoDatabaseGUI\obj\Debug\CSVtoDatabaseGUI.csproj.CoreCompileInputs.cache
+C:\Users\Trent\Documents\Visual Studio 2017\Projects\CSVtoDatabaseGUI\CSVtoDatabaseGUI\obj\Debug\CSVtoDatabaseGUI.exe
+C:\Users\Trent\Documents\Visual Studio 2017\Projects\CSVtoDatabaseGUI\CSVtoDatabaseGUI\obj\Debug\CSVtoDatabaseGUI.pdb
+C:\Users\Trent\Documents\Visual Studio 2017\Projects\CSVtoDatabaseGUI\CSVtoDatabaseGUI\bin\Debug\TableBuilderLibrary.dll
+C:\Users\Trent\Documents\Visual Studio 2017\Projects\CSVtoDatabaseGUI\CSVtoDatabaseGUI\obj\Debug\CSVtoDatabaseGUI.csprojResolveAssemblyReference.cache
