@@ -16,6 +16,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 using TableBuilderLibrary;
+//TableBuilderLibrary Repos(GNU Open-Source): https://github.com/trentfromrid/TableBuilderLibrary
 
 namespace CSVtoDatabaseGUI
 {
@@ -27,7 +28,6 @@ namespace CSVtoDatabaseGUI
         public MainWindow()
         {
             InitializeComponent();
-            //Class1.tab.gimmeChar();
             Import.Content = "Import";
         }
 
@@ -37,18 +37,18 @@ namespace CSVtoDatabaseGUI
             openFileDialog.Filter = "CSV files (*.csv)|*.csv";
             if (openFileDialog.ShowDialog() == true)
             {
-                string filePath = openFileDialog.FileName;
-                List<string> csvStringList = FileIO.ImportFileToStringList(filePath);
+                string filePath = openFileDialog.FileName.Replace(".csv","");
+                List<string> csvStringList = FileIO.ImportCsvToStringList(filePath);
                 bool hasHeaders = true;
                 
-                //Get Headers
+                //Get Headers 
                 string[] headers = Parser.ParseHeadersFromCsvStringList(csvStringList);
 
                 DataTable table = TableBuilder.BuildTableSchema("Table", headers);
                 char delimiter = ',';
 
                 //Populate Table
-                table.PopulateTableFromCsv(csvStringList, delimiter, hasHeaders);
+                table.PopulateTableFromCsv(filePath, delimiter, hasHeaders);
 
                 grid.ItemsSource = table.AsDataView();
             }

@@ -45,8 +45,7 @@
     <Reference Include="System.Xaml">
       <RequiredTargetFramework>4.0</RequiredTargetFramework>
     </Reference>
-    <Reference Include="TableBuilderLibrary, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
+    <Reference Include="TableBuilderLibrary">
       <HintPath>..\..\..\..\..\Source\Repos\TableBuilderLibrary\TableBuilderLibrary\bin\Release\TableBuilderLibrary.dll</HintPath>
     </Reference>
     <Reference Include="WindowsBase" />
@@ -58,7 +57,6 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Compile Include="Class1.cs" />
     <Compile Include="FileIO.cs" />
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>

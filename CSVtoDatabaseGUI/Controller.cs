@@ -13,8 +13,10 @@ namespace CSVtoDatabaseGUI
             //ConfigurationSetup();
             //FolderStructureSetup();
 
+
+            string filePathNoExtension = "D:\\CSVtoDatabase\\table";
             //ImportCSV
-            List<string> csvStringList = FileIO.ImportFileToStringList("D:\\CSVtoDatabase\\table.csv");
+            List<string> csvStringList = FileIO.ImportFileToStringList(filePathNoExtension);
 
             //Get Headers
             string[] headers = Parser.ParseHeadersFromCsvStringList(csvStringList);
@@ -26,7 +28,7 @@ namespace CSVtoDatabaseGUI
             char delimiter = ',';
 
             //Populate Table
-            table = TableBuilder.PopulateTableFromCsv(table, csvStringList, delimiter, true);
+            table.PopulateTableFromCsv(filePathNoExtension, delimiter, true);
 
             //Export to Database
 
